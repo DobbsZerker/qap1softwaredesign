@@ -23,11 +23,13 @@ public class account {
     }
 
     public boolean login() {
-        return loggedIn = true;
+        loggedIn = true;
+        return loggedIn;
 
     }
     public boolean logout() {
-        return loggedIn = false;
+        loggedIn = false;
+        return loggedIn;
     }
 
     public int credit (int amount) {
